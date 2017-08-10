@@ -39,21 +39,28 @@ if (  class_exists( 'WC_Settings_Page' ) ) :
 			array( 'title' => __( 'Woocommerce Sticky Add To Cart', 'wsac' ), 'type' => 'title', 'desc' => '', 'id' => 'sticky_bar_title' ),
 				array(
 					'title'		=> __( 'Enable', 'wsac' ),
-					'desc'    => __( 'Enable sticky add to cart option.', 'wsac' ),
+					'desc'    => __( 'Enable sticky add to cart option', 'wsac' ),
 					'type'    => 'checkbox',
 					'id'    	=> 'wsac[enable]',
 					'default' => 'no'
 				),
 				array(
+					'title'   => __( 'Enable on Desktop', 'wsac' ),
+					'desc'    => __( 'Enable sticky add to cart option on desktop', 'wsacp' ),
+					'type'    => 'checkbox',
+					'id'    	=> 'wsac[enable_desktop]',
+					'default' => 'yes'
+				),
+				array(
 					'title'   => __( 'Enable on mobile', 'wsac' ),
-					'desc'    => __( 'Enable sticky add to cart option on mobile .', 'wsac' ),
+					'desc'    => __( 'Enable sticky add to cart option on mobile', 'wsac' ),
 					'type'    => 'checkbox',
 					'id'    	=> 'wsac[enable_mobile]',
 					'default' => 'no'
 				),
 				array(
 					'title'   => __( 'Always visible', 'wsac' ),
-					'desc'    => __( 'Make sticky bar always visible on single product pages.', 'wsac' ),
+					'desc'    => __( 'Make sticky bar always visible on single product pages', 'wsac' ),
 					'type'    => 'checkbox',
 					'id'    	=> 'wsac[on_load_page]',
 					'default' => 'no'
@@ -61,7 +68,7 @@ if (  class_exists( 'WC_Settings_Page' ) ) :
 				array(
 					'title' 		=> __( 'Sticky bar position', 'wsac' ),
 					'type' 			=> 'select',
-					'desc'    	=> __( 'Select a postion to display sticky bar , Default will bottom .', 'wsac' ),
+					'desc'    	=> __( 'Select a position to display sticky bar , Default will bottom', 'wsac' ),
 					'id'				=> 'wsac[fix_postion]',
 					'options' 	=> array('top' => 'Top' , 'bottom' => 'Bottom'),
 					'default' 	=> 'bottom'
@@ -111,13 +118,22 @@ if (  class_exists( 'WC_Settings_Page' ) ) :
 					'default'   => '#cd534a',
 					'desc_tip'  =>  true
 				),
-					array(
+				array(
 					'title'    	=> __( 'Customize cart button\'s text', 'wsac' ),
 					'desc'     	=> __( 'Customize text on cart button', 'wsac' ),
 					'id'     		=> 'wsac[text]',
 					'type'     	=> 'text',
 					'css'    		=> 'width:200px',
-					'default'   => 'ADD TO BAG',
+					'default'   => 'Add to cart',
+					'desc_tip'  =>  true
+				),
+				array(
+					'title'    	=> __( 'Customize variable product button\'s text ', 'wsac' ),
+					'desc'     	=> __( 'Customize text on cart button when product type variable', 'wsac' ),
+					'id'     		=> 'wsac[variable_text]',
+					'type'     	=> 'text',
+					'css'    		=> 'width:200px',
+					'default'   => 'Show Options',
 					'desc_tip'  =>  true
 				),
 				array(
@@ -173,7 +189,7 @@ if (  class_exists( 'WC_Settings_Page' ) ) :
 				array(
 					'title' 		=> __( 'Select cart button shape', 'wsac' ),
 					'type' 			=> 'select',
-					'desc'    	=> __( 'Select a shape of cart button either rounded or squre , Default will rounded .', 'wsac' ),
+					'desc'    	=> __( 'Select a shape of cart button either rounded or square , Default will rounded', 'wsac' ),
 					'id'				=> 'wsac[cart_shape]',
 					'options' 	=> array('round' => 'Round' , 'square' => 'Square'),
 					'default' 	=> 'square'
@@ -181,7 +197,7 @@ if (  class_exists( 'WC_Settings_Page' ) ) :
 				array(
 					'title' 		=> __( 'Select badge shape of price', 'wsac' ),
 					'type' 			=> 'select',
-					'desc'    	=> __( 'Select a shape of badge shape either rounded or squre , Default will rounded .', 'wsac' ),
+					'desc'    	=> __( 'Select a shape of badge shape either rounded or square , Default will rounded', 'wsac' ),
 					'id'				=> 'wsac[badge_shape]',
 					'options' 	=> array('round' => 'Round' , 'square' => 'Square'),
 					'default' 	=> 'square'

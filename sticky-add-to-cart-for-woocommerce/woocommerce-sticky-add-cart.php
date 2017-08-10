@@ -18,6 +18,4 @@ define( 'WSAC_PATH', plugin_dir_path( __FILE__ ) );
 define( 'WSAC_BASE', plugin_basename( __FILE__ ) );
 
 require WSAC_PATH . '/includes/class-wsac.php';
-require WSAC_PATH . '/includes/wsac-frontend.php';
-require WSAC_PATH . '/includes/wsac-function.php';
 new WC_Sticky_Add_To_Cart();
