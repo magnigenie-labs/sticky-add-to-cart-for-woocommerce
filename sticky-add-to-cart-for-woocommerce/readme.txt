@@ -3,8 +3,8 @@ Contributors: Magnigenie, dibyadas, kshirod-patel, sagarseth9
 Tags: add to cart, sticky add to cart, woocommerce sticky bar, woocommerce,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sales@magnigenie.com&item_name=Woocommerce Sticky Add Cart&return=http://magnigenie.com
 Requires at least: 4.0
-Tested up to: 4.8
-Stable tag: 1.0
+Tested up to: 4.8.1
+Stable tag: 1.1
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -43,6 +43,12 @@ With add to cart, it also shows the product price, image, ratings. So the user d
 = 1.0 =
 * Initial release.
 
+= 1.1 =
+* Updated add to cart process.
+* Css fixes.
+* Responsive issue fixes.
+* Option added to choose to enable for mobile/desktop.
+
 == Upgrade Notice ==
-= 1.0 =
-This is the first version of our plugin. We will notify you when there is an update available.update available.
+= 1.1 =
+Upgrade to version 1.1 to have a better support for mobile and cart flow.

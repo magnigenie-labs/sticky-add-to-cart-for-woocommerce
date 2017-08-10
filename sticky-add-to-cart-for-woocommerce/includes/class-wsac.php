@@ -4,7 +4,7 @@
  *
  * @author   Magnigenie
  * @category  Admin
- * @version     1.0
+ * @version     1.1
  */
 
 ! defined( 'ABSPATH' ) AND exit; // No direct file access

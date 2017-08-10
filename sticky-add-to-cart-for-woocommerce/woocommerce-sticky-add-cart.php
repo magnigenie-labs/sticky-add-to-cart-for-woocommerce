@@ -3,7 +3,7 @@
 Plugin Name: WooCommerce Sticky Add To Cart
 Plugin URI: https://wordpress.org/plugins/sticky-add-to-cart-for-woocommerce/
 Description: This plugin allows you to add a sticky add to cart on single product pages.
-Version: 1.0
+Version: 1.1
 Author: Magnigenie
 Author URI: http://magnigenie.com
 License: GPLv2 or later
