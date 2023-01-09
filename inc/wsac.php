@@ -116,7 +116,7 @@ class WC_Sticky_Add_To_Cart {
     $css .= ".right-border{border-right: 1px solid ".$this->option('border')."}";
     $css .= ".mg-wsac-btn{ background : ".$this->option('cart_background')." ; color : ".$this->option('text_color')." }";
     $css .= ".mg-wsac-btn:hover{ background : ".$this->option('cart_background_hover')." }";
-    $css .= ".mg-wsac-badge{border-radius : $badge_shape ; color : ".$this->option('text_color_badge')." ; background : ".$this->option('badge_background')." }";
+    $css .= ".mg-wsac-price-container .mg-wsac-badge{border-radius : $badge_shape ; color : ".$this->option('text_color_badge')." ; background : ".$this->option('badge_background')." }";
     $css .= ".stky-strike{color : ".$this->option('strike_color')." }";
     $css .= ".stky-reglr-price , .stky-prdct-name {color : ".$this->option('sticky_text')." }";
     $css .= ".mg-wsac-round-xxlarge{ border-radius : $cart_btn_shape }";
