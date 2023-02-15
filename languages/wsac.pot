@@ -1,14 +1,599 @@
+#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: \n"
-"POT-Creation-Date: 2018-12-05 18:51+0530\n"
-"PO-Revision-Date: 2018-12-05 18:52+0530\n"
+"Project-Id-Version: WooCommerce Sticky Add To Cart\n"
+"POT-Creation-Date: 2023-02-15 12:41+0530\n"
+"PO-Revision-Date: 2023-02-15 12:41+0530\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Poedit 2.1.1\n"
-"X-Poedit-Basepath: .\n"
-"Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Language: en\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+"X-Generator: Poedit 3.2.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-Flags-xgettext: --add-comments=translators:\n"
+"X-Poedit-WPHeader: woocommerce-sticky-add-cart.php\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.min.js\n"
+
+#: inc/includes/class-options-framework-admin.php:186
+#: inc/includes/class-options-framework-admin.php:187
+msgid "Theme Options"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:281
+msgid "Please Wait"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:329
+msgid "Save Options"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:330
+msgid "Restore Defaults"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:330
+msgid "Click OK to reset. Any theme settings will be lost!"
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:371
+msgid "Default options restored."
+msgstr ""
+
+#: inc/includes/class-options-framework-admin.php:426
+msgid " Options saved."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:55
+msgid "No file chosen"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:58
+#: inc/includes/class-options-media-uploader.php:111
+msgid "Upload"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:60
+#: inc/includes/class-options-media-uploader.php:112
+msgid "Remove"
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:63
+msgid "Upgrade your version of WordPress for full media support."
+msgstr ""
+
+#: inc/includes/class-options-media-uploader.php:87
+msgid "View File"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:223
+msgid "No Repeat"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:224
+msgid "Repeat Horizontally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:225
+msgid "Repeat Vertically"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:226
+msgid "Repeat All"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:239
+msgid "Top Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:240
+msgid "Top Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:241
+msgid "Top Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:242
+msgid "Middle Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:243
+msgid "Middle Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:244
+msgid "Middle Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:245
+msgid "Bottom Left"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:246
+msgid "Bottom Center"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:247
+msgid "Bottom Right"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:260
+msgid "Scroll Normally"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:261
+msgid "Fixed in Place"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:335
+msgid "Normal"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:336
+msgid "Italic"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:337
+msgid "Bold"
+msgstr ""
+
+#: inc/includes/class-options-sanitization.php:338
+msgid "Bold Italic"
+msgstr ""
+
+#: inc/options.php:48
+msgid "General"
+msgstr ""
+
+#: inc/options.php:51 includes/wsac-settings.php:41
+msgid "Enable"
+msgstr ""
+
+#: inc/options.php:52
+msgid "Turn on if you want to enable Sticky Add To Cart."
+msgstr ""
+
+#: inc/options.php:57
+msgid "Enable On Desktop"
+msgstr ""
+
+#: inc/options.php:58 includes/wsac-settings.php:49
+msgid "Enable sticky add to cart option on desktop"
+msgstr ""
+
+#: inc/options.php:63
+msgid "Enable On Mobile"
+msgstr ""
+
+#: inc/options.php:64 includes/wsac-settings.php:56
+msgid "Enable sticky add to cart option on mobile"
+msgstr ""
+
+#: inc/options.php:69
+msgid "Always Visible"
+msgstr ""
+
+#: inc/options.php:70 includes/wsac-settings.php:63
+msgid "Make sticky bar always visible on single product pages"
+msgstr ""
+
+#: inc/options.php:75
+msgid "Sticky Add To Cart Style"
+msgstr ""
+
+#: inc/options.php:76
+msgid "Select the style that you want to use in the sticky add to cart"
+msgstr ""
+
+#: inc/options.php:83
+msgid "Sticky Bar Position"
+msgstr ""
+
+#: inc/options.php:84
+msgid "Select a position to display sticky bar , Default will be bottom"
+msgstr ""
+
+#: inc/options.php:90
+msgid "Sticky Bar Height"
+msgstr ""
+
+#: inc/options.php:91
+msgid "Set height for sticky bar in px. Blank will assume as auto"
+msgstr ""
+
+#: inc/options.php:97
+msgid "Hide Sticky Cart For Products"
+msgstr ""
+
+#: inc/options.php:100
+msgid ""
+"Select for which products the sticky add to cart won't be shown. Keeping "
+"blank will show sticky add to cart over all the products"
+msgstr ""
+
+#: inc/options.php:103
+msgid "Enable ajax For Add To Cart"
+msgstr ""
+
+#: inc/options.php:104
+msgid "Enable ajax based add to cart option"
+msgstr ""
+
+#: inc/options.php:110
+msgid "Redirect After Added Into Cart"
+msgstr ""
+
+#: inc/options.php:111
+msgid ""
+"Select on which page you want to redirect after once the product has been "
+"added to cart"
+msgstr ""
+
+#: inc/options.php:117
+msgid "Loading text for add to cart"
+msgstr ""
+
+#: inc/options.php:118
+msgid "This will be loading text for add to cart button"
+msgstr ""
+
+#: inc/options.php:124
+msgid "Appearance Settings"
+msgstr ""
+
+#: inc/options.php:127
+msgid "Show Product Image"
+msgstr ""
+
+#: inc/options.php:128
+msgid "Show product image in sticky add to cart "
+msgstr ""
+
+#: inc/options.php:134
+msgid "Show Star Ratings"
+msgstr ""
+
+#: inc/options.php:135
+msgid "Show product star ratings in sticky add to cart "
+msgstr ""
+
+#: inc/options.php:141
+msgid "Show Quantity Box"
+msgstr ""
+
+#: inc/options.php:142
+msgid "Show quantity box in sticky add to cart "
+msgstr ""
+
+#: inc/options.php:148
+msgid "Sticky Bar Background"
+msgstr ""
+
+#: inc/options.php:149 includes/wsac-settings.php:88
+msgid "Select background color for sticky bar."
+msgstr ""
+
+#: inc/options.php:154
+msgid "Sticky Bar Background Image"
+msgstr ""
+
+#: inc/options.php:155
+msgid ""
+"Set sticky bar background image. If sticky bar background image is set then "
+"sticky bar background color would not work."
+msgstr ""
+
+#: inc/options.php:161
+msgid "Background Image Size"
+msgstr ""
+
+#: inc/options.php:162
+msgid "Set sticky bar background image size"
+msgstr ""
+
+#: inc/options.php:169
+msgid "Background Image Custom Size"
+msgstr ""
+
+#: inc/options.php:170
+msgid "Set sticky bar background custom image size, example: 50%"
+msgstr ""
+
+#: inc/options.php:176
+msgid "Background Image Position"
+msgstr ""
+
+#: inc/options.php:177
+msgid "Set sticky bar background image position"
+msgstr ""
+
+#: inc/options.php:184
+msgid "Background Image Repeat"
+msgstr ""
+
+#: inc/options.php:185
+msgid "Set sticky bar background image repeat"
+msgstr ""
+
+#: inc/options.php:192
+msgid "Star Background Color"
+msgstr ""
+
+#: inc/options.php:193
+msgid "Select background color for star."
+msgstr ""
+
+#: inc/options.php:198
+msgid "Star Color"
+msgstr ""
+
+#: inc/options.php:199 includes/wsac-settings.php:106
+msgid "Select star color."
+msgstr ""
+
+#: inc/options.php:204
+msgid "Sticky Bar's Border Color"
+msgstr ""
+
+#: inc/options.php:205 includes/wsac-settings.php:115
+msgid "Select border color for sticky bar."
+msgstr ""
+
+#: inc/options.php:210
+msgid "Simple Product Add To Cart Text"
+msgstr ""
+
+#: inc/options.php:211
+msgid "Set text for add to cart button"
+msgstr ""
+
+#: inc/options.php:216
+msgid "Variable Product Add To Cart Text"
+msgstr ""
+
+#: inc/options.php:217
+msgid "Set text for variable product add to cart text"
+msgstr ""
+
+#: inc/options.php:222
+msgid "Cart Button Background"
+msgstr ""
+
+#: inc/options.php:223 includes/wsac-settings.php:142
+msgid "Set background color for cart button"
+msgstr ""
+
+#: inc/options.php:228
+msgid "Cart Button Hover Background"
+msgstr ""
+
+#: inc/options.php:229
+msgid "Set background hover color for cart button"
+msgstr ""
+
+#: inc/options.php:234
+msgid "Button Text & Icon Color"
+msgstr ""
+
+#: inc/options.php:235 includes/wsac-settings.php:151
+msgid "Text color for cart button."
+msgstr ""
+
+#: inc/options.php:239
+msgid "Stockout Text & Icon Color"
+msgstr ""
+
+#: inc/options.php:240
+msgid "Text color for out of stock."
+msgstr ""
+
+#: inc/options.php:246
+msgid "Price Badge Text Color"
+msgstr ""
+
+#: inc/options.php:247 includes/wsac-settings.php:160
+msgid "Text color for badge of price."
+msgstr ""
+
+#: inc/options.php:252
+msgid "Price Badge Background Color"
+msgstr ""
+
+#: inc/options.php:253
+msgid "Set background color for badge of price."
+msgstr ""
+
+#: inc/options.php:258
+msgid "Regular Price Strike Color"
+msgstr ""
+
+#: inc/options.php:259 includes/wsac-settings.php:178
+msgid "Set strike color  of  regular price"
+msgstr ""
+
+#: inc/options.php:264
+msgid "Text Color For Product and Price"
+msgstr ""
+
+#: inc/options.php:265
+msgid "Set text color for product name and price"
+msgstr ""
+
+#: inc/options.php:270
+msgid "Select Product Image Shape"
+msgstr ""
+
+#: inc/options.php:271
+msgid "Select product image shape which will be shown in the stick bar"
+msgstr ""
+
+#: inc/options.php:277
+msgid "Select Badge Shape Of Price"
+msgstr ""
+
+#: inc/options.php:278 includes/wsac-settings.php:207
+msgid ""
+"Select a shape of badge shape either rounded or square , Default will rounded"
+msgstr ""
+
+#: inc/wsac.php:68
+msgid "Settings"
+msgstr ""
+
+#: inc/wsac.php:69
+msgid "Get Pro Version"
+msgstr ""
+
+#: inc/wsac.php:367 includes/class-wsac.php:169
+msgid "Out Of Stock"
+msgstr ""
+
+#: includes/wsac-settings.php:24
+msgid "Sticky Cart"
+msgstr ""
+
+#: includes/wsac-settings.php:39
+msgid "Woocommerce Sticky Add To Cart"
+msgstr ""
+
+#: includes/wsac-settings.php:42
+msgid "Enable sticky add to cart option"
+msgstr ""
+
+#: includes/wsac-settings.php:48
+msgid "Enable on Desktop"
+msgstr ""
+
+#: includes/wsac-settings.php:55
+msgid "Enable on mobile"
+msgstr ""
+
+#: includes/wsac-settings.php:62
+msgid "Always visible"
+msgstr ""
+
+#: includes/wsac-settings.php:69
+msgid "Sticky bar position"
+msgstr ""
+
+#: includes/wsac-settings.php:72
+msgid "Select a position to display sticky bar , Default will bottom"
+msgstr ""
+
+#: includes/wsac-settings.php:78
+msgid "Sticky bar's height"
+msgstr ""
+
+#: includes/wsac-settings.php:79
+msgid "Set height for sticky bar  in px. Blank will assume as auto"
+msgstr ""
+
+#: includes/wsac-settings.php:87
+msgid "Sticky bar's background"
+msgstr ""
+
+#: includes/wsac-settings.php:96
+msgid "Star background color"
+msgstr ""
+
+#: includes/wsac-settings.php:97
+msgid "Select background color for stat."
+msgstr ""
+
+#: includes/wsac-settings.php:105
+msgid "Star color"
+msgstr ""
+
+#: includes/wsac-settings.php:114
+msgid "Sticky bar's border color"
+msgstr ""
+
+#: includes/wsac-settings.php:123
+msgid "Customize cart button's text"
+msgstr ""
+
+#: includes/wsac-settings.php:124
+msgid "Customize text on cart button"
+msgstr ""
+
+#: includes/wsac-settings.php:132
+msgid "Customize variable product button's text "
+msgstr ""
+
+#: includes/wsac-settings.php:133
+msgid "Customize text on cart button when product type variable"
+msgstr ""
+
+#: includes/wsac-settings.php:141
+msgid "Cart button background"
+msgstr ""
+
+#: includes/wsac-settings.php:150
+msgid "Button text color"
+msgstr ""
+
+#: includes/wsac-settings.php:159
+msgid "Badge text color of price"
+msgstr ""
+
+#: includes/wsac-settings.php:168
+msgid "Badge background of price"
+msgstr ""
+
+#: includes/wsac-settings.php:169
+msgid "Set background color for badge of price"
+msgstr ""
+
+#: includes/wsac-settings.php:177
+msgid "Regular price strike color"
+msgstr ""
+
+#: includes/wsac-settings.php:186
+msgid "Text color"
+msgstr ""
+
+#: includes/wsac-settings.php:187
+msgid "Set color to text of sticky bar"
+msgstr ""
+
+#: includes/wsac-settings.php:195
+msgid "Select cart button shape"
+msgstr ""
+
+#: includes/wsac-settings.php:198
+msgid ""
+"Select a shape of cart button either rounded or square , Default will rounded"
+msgstr ""
+
+#: includes/wsac-settings.php:204
+msgid "Select badge shape of price"
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "WooCommerce Sticky Add To Cart"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid ""
+"https://www.magnigenie.com/downloads/woocommerce-sticky-add-to-cart-pro/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"This plugin allows you to add a sticky add to cart on single product pages."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "Magnigenie"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://www.magnigenie.com"
+msgstr ""

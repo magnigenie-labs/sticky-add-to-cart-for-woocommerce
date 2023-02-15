@@ -4,8 +4,8 @@ Tags: add to cart, sticky add to cart, woocommerce sticky bar, woocommerce,
 Donate link: https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=sales@magnigenie.com&item_name=Woocommerce Sticky Add Cart&return=https://magnigenie.com
 Requires at least: 4.0
 Requires PHP: 5.4
-Tested up to: 5.5.1
-Stable tag: 1.5
+Tested up to: 6.1.1
+Stable tag: 1.6
 License: GPLv2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
@@ -58,18 +58,23 @@ With add to cart, it also shows the product price, image, ratings. So the user d
 4. Sticky add to cart admin settings 2.
 
 == Changelog ==
-= 1.0 =
-* Initial release.
 
-= 1.1 =
-* Updated add to cart process.
-* Css fixes.
-* Responsive issue fixes.
-* Option added to choose to enable for mobile/desktop.
+= 1.6 =
+* Fixed: Product image issue for both desktop and mobile.
+* Fixed: Star Color issue.
+* Fixed: Price Badge Text Color.
+* Fixed: Add to cart button position issue.
+* Fixed: Responsive issue.
+* Added: Correct .pot file added.
 
-= 1.2 =
-* Fixed issues with price display.
-* Optimized css.
+= 1.5 =
+* Fixed duplicate settings issue.
+* Updated to work with WooCommerce 3.8.X
+* css and js optimized
+
+= 1.4 =
+* Fixed css issue with the price display.
+* Fixed bar display problems.
 
 = 1.3 =
 * Fixed issue for WooCommerce product type.
@@ -82,12 +87,34 @@ With add to cart, it also shows the product price, image, ratings. So the user d
 * Optimized css.
 * Options framework added for settings panel
 
-= 1.4 =
-* Fixed css issue with the price display.
-* Fixed bar display problems.
+= 1.2 =
+* Fixed issues with price display.
+* Optimized css.
 
-= 1.5 =
-* Fixed duplicate settings issue.
-* Updated to work with WooCommerce 3.8.X
-* css and js optimized
+= 1.1 =
+* Updated add to cart process.
+* Css fixes.
+* Responsive issue fixes.
+* Option added to choose to enable for mobile/desktop.
+
+= 1.0 =
+* Initial release.
+
+== Upgrade Notice ==
+
+= 1.6 =
+
+* New update for Sticky Add To Cart is available. Please take a backup before the update.
+
+
+
+
+
+
+
+
+
+
+
+
 

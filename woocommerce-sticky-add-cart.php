@@ -1,13 +1,15 @@
 <?php
-/*
-Plugin Name: WooCommerce Sticky Add To Cart
-Plugin URI: https://www.magnigenie.com/downloads/woocommerce-sticky-add-to-cart-pro/
-Description: This plugin allows you to add a sticky add to cart on single product pages.
-Version: 1.5
-Author: Magnigenie
-Author URI: https://www.magnigenie.com
-License: GPLv2 or later
-License URI: http://www.gnu.org/licenses/gpl-2.0.html
+/**
+* Plugin Name: WooCommerce Sticky Add To Cart
+* Plugin URI: https://www.magnigenie.com/downloads/woocommerce-sticky-add-to-cart-pro/
+* Description: This plugin allows you to add a sticky add to cart on single product pages.
+* Version: 1.6
+* Author: Magnigenie
+* Author URI: https://www.magnigenie.com
+* Text Domain: wsac
+* Domain Path: languages
+* License: GPLv2 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 // No direct file access
